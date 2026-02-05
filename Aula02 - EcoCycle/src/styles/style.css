@@ -21,7 +21,7 @@
 }
 
 .link-nav:focus, .btn-leitura:focus {
-    outline: 4px solid #f1c40f; /* Amarelo vivo para alto contraste */
+    outline: 4px solid #f1c40f;
     outline-offset: 2px;
 }
 
@@ -40,8 +40,8 @@
 .card-noticia h2 { color: #1b5e20; margin: 10px 0; }
 
 .card-noticia p {
-    color: #333; /* Cinza escuro para melhor contraste */
-    line-height: 1.6; /* Melhor para disléxicos e leitura cognitiva */
+    color: #333;
+    line-height: 1.6; 
     margin-bottom: 15px;
 }
 
