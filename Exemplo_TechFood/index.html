@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>Exemplo TechFood</title>
+  </head>
+  <body>
+    <header id="topo-loja">
+      <h1>TechFood - Sabor e Saber</h1>
+      <p id="boas-vindas">Carregando...</p>
+      <p id="nome">Seu nome aqui!</p>
+      <input type="checkbox" id="bt_menu" />
+      <label for="bt_menu" id="label_menu">&#9776</label>
+
+      <nav id="menu">
+        <ul>
+          <li><a href="#section-massas">Massas</a></li>
+          <li><a href="#section-sobremesas">Sobremesas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+
+      <section id="section-massas">
+        <h2 class="titulo-section">Nossas Massas</h2>
+
+        <div class="vitrine-grid">
+          <article class="card" id="card-lasanha">
+            <img src="./src/images/lasanha.jpg" alt="lasanha a bolonhesa" />
+
+            <h3>Lasanha a bolonhesa</h3>
+            <p class="desc">
+              Massa artesanal, molho bombástico e carne de bois gulosos
+            </p>
+            <span class="preco">R$ 45,00</span>
+            <button class="bt_pedido">Pedir agora</button>
+          </article>
+
+
+          <article class="card" id="card-nhoque">
+            <img src="./src/images/nhoque_bolonhesa.jpg" alt="nhoque a bolonhesa" />
+            <h3>Nhoque a bolonhesa</h3>
+            <p class="desc">
+              Massa artesanal com carne de angus
+            </p>
+            <span class="preco">R$ 38,00</span>
+            <button class="bt_pedido">Pedir agora</button>
+          </article>
+
+
+          <article class="card">
+            <img src="./src/images/spagetti carbonara.jpg" alt="spaghetti carbonara" />
+            <h3>Spaghetti Carbonara</h3>
+            <p class="desc">
+              Massa caseira com bacon refogado
+            </p>
+            <span class="preco">R$ 42,00</span>
+            <button class="bt_pedido">Pedir agora</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="section-sobremesas">
+        <h2 class="titulo-section">Nossas Sobremesas</h2>
+
+        <div class="vitrine-grid">
+          <article class="card">
+            <img src="./src/images/pudim.jpg" alt="Pudim de leite" />
+            <h3>Pudim de leite</h3>
+            <p class="desc">
+              Pudim sensacional de leite compensado
+            </p>
+            <span class="preco">R$ 15,00</span>
+            <button class="bt_pedido">Pedir agora</button>
+          </article>
+
+
+          <article class="card">
+            <img src="./src/images/brownie.jpg" alt="brownie com sorvete de creme" />
+            <h3>Brownie com sorvete de creme</h3>
+            <p class="desc">
+              Brownie delicioso com sorvete de creme da maior qualidade
+            </p>
+            <span class="preco">R$ 22,00</span>
+            <button class="bt_pedido">Pedir agora</button>
+          </article>
+
+
+          <article class="card">
+            <img src="./src/images/torta_limao.jpg" alt="torta de limão" />
+            <h3>Torta de Limão</h3>
+            <p class="desc">
+              Torta de limão do himalaia
+            </p>
+            <span class="preco">R$ 17,00</span>
+            <button class="bt_pedido">Pedir agora</button>
+          </article>
+        </div>
+      </section>
+
+    </main>
+    <footer id="rodape">
+        <div class="info-footer">
+            <p><strong>TechFood 2026 &#169</strong></p>
+            <p>Rua das gostosuras 67, Jd. Obesidade - Salto</p>
+        </div>
+    </footer>
+    <script src="src/scripts/novos.js"></script>
+  </body>
+</html>
