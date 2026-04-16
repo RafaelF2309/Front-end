@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-#bt_menu, #label_menu{
+#bt_menu, #label_menu, #menu{
     display: none;
 }
 
@@ -58,13 +58,14 @@
 
 .card{
     border: 1px solid #ddd;
-    padding: 15px;
+    padding: 2rem;
     border-radius: 8px;
     text-align: center;
     display: flex;
+    gap: 8px;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 300ms ease-in-out;
+    transition: 0.3s
 }
 
 .card img{
@@ -89,21 +90,13 @@
     font-weight: bold;
     padding: 6px;
     border-radius: 4px;
-    transition: transform 300ms ease-in-out;
+    transition: 0.3s
 }
 
 .bt_pedido:hover{
-    transition: 300ms;
     color: #a52525;
     background-color: white;
     border: 1px solid #a52525;
-    transform: scale(1.1);
-}
-
-@media screen {
-    #topo-loja h1{
-        letter-spacing: px;
-    }
 }
 
 @media only screen and (max-width: 480px){
@@ -127,7 +120,7 @@
         margin-top: 10px;
     }
 
-    #bt_menu:checked ~ menu ul{
+    #bt_menu:checked + #label_menu + #menu{
     display: block;
     padding: 10px 0;
     }
